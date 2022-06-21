@@ -1,0 +1,32 @@
+Sistema de gerenciamente de cursos de uma escola, neste sistema, poderam ser cadastrados pessoas que podem ser professores ou alunos e tambem serão cadastrados cursos.
+1 - Pessoas:
+		#1 CPF
+		#2 Nome completo:
+		#3 Endereço:
+
+		1.1- Professores:
+			#1 Salário
+	
+		1.2- Aluno:
+			#1 Matrícula(string aletório)
+			#2 Intercâmbio
+
+2- Curso:
+	#1 Nome
+	#2 Professor 
+	#3 No mínimo 4 alunos para o curso existir
+	#4 No mínimo 1 aluno intercambista
+
+
+OBS: Quem utilizará será o diretor.
+
+#COMUNICAÇÕES...
+	Pessoa->Professor
+	Pessoa->Aluno
+	Curso->Professor
+	Professor->Curso
+	Aluno->Curso
+	Curso->Aluno
+
+#Notes
+	
